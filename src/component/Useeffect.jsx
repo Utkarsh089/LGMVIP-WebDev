@@ -9,7 +9,7 @@ function UseEffect() {
   };*/
 
   const [users, setUser] = useState([]);
-  const [load, setLoading] = useState(false);
+  const [setLoading] = useState(false);
 
   const fetchData = async () => {
     setLoading(true);
